@@ -6,6 +6,7 @@
 [![Code Climate](https://codeclimate.com/github/jbox-web/gh-preview/badges/gpa.svg)](https://codeclimate.com/github/jbox-web/gh-preview)
 [![Test Coverage](https://codeclimate.com/github/jbox-web/gh-preview/badges/coverage.svg)](https://codeclimate.com/github/jbox-web/gh-preview/coverage)
 [![Dependency Status](https://gemnasium.com/jbox-web/gh-preview.svg)](https://gemnasium.com/jbox-web/gh-preview)
+[![Gem Version](https://badge.fury.io/rb/gh-preview.svg)](http://badge.fury.io/rb/gh-preview)
 
 ### A small Sinatra application to preview GitHub README files, easy ;)
 
