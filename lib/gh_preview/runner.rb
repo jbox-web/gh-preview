@@ -11,7 +11,7 @@ module GhPreview
     def server
       app = Rack::Builder.new
       app.run GhPreview::Server.new(options[:file] || 'README.md')
-      Rack::Server.start app: app, Port: (options[:port] || 4000)
+      Rack::Server.start app: app, Port: (options[:port] || 4000), server: 'webrick'
     end
 
   end
