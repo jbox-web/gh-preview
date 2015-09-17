@@ -1,0 +1,13 @@
+!!! 5
+%html
+
+  %head= render partial: 'headers'
+
+  %body
+
+    %a{ href: "#{GhPreview::Config::GITHUB_URL}" }
+      %img{ alt: 'Fork me on GitHub', src: 'http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png', class: 'ribbons' }
+
+    .container
+      = render partial: 'nav_bar'
+      = render partial: 'page'

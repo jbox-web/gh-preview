@@ -1,0 +1,9 @@
+{
+  "command": "ruby -rubygems -r./spec/zeus_plan -eZeus.go",
+  "plan": {
+    "boot": {
+      "prerake": { "rake": [] },
+      "default_env": {}
+    }
+  }
+}
