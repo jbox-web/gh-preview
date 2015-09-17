@@ -4,6 +4,16 @@ require 'pygments'
 require 'redcarpet'
 
 module GhPreview
+
+  class HTMLwithPygments < Redcarpet::Render::HTML
+
+    def block_code(code, language)
+      Pygments.highlight(code, lexer: language)
+    end
+
+  end
+
+
   class RedcarpetFilter < HTML::Pipeline::TextFilter
 
     def initialize(text, context = nil, result = nil)
@@ -35,11 +45,5 @@ module GhPreview
         }
       end
 
-  end
-end
-
-class HTMLwithPygments < Redcarpet::Render::HTML
-  def block_code(code, language)
-    Pygments.highlight(code, lexer: language)
   end
 end
