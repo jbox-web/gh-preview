@@ -2,10 +2,10 @@
 
 [![GitHub license](https://img.shields.io/github/license/jbox-web/gh-preview.svg)](https://github.com/jbox-web/gh-preview/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/jbox-web/gh-preview.svg)](https://github.com/jbox-web/gh-preview/releases/latest)
-[![Code Climate](https://codeclimate.com/github/jbox-web/gh-preview/badges/gpa.svg)](https://codeclimate.com/github/jbox-web/gh-preview)
 [![Build Status](https://travis-ci.org/jbox-web/gh-preview.svg?branch=master)](https://travis-ci.org/jbox-web/gh-preview)
+[![Code Climate](https://codeclimate.com/github/jbox-web/gh-preview/badges/gpa.svg)](https://codeclimate.com/github/jbox-web/gh-preview)
+[![Test Coverage](https://codeclimate.com/github/jbox-web/gh-preview/badges/coverage.svg)](https://codeclimate.com/github/jbox-web/gh-preview/coverage)
 [![Dependency Status](https://gemnasium.com/jbox-web/gh-preview.svg)](https://gemnasium.com/jbox-web/gh-preview)
-[![Coverage Status](https://coveralls.io/repos/jbox-web/gh-preview/badge.png?branch=master)](https://coveralls.io/r/jbox-web/gh-preview?branch=master)
 
 ### A small Sinatra application to preview GitHub README files, easy ;)
 
