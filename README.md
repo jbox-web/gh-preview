@@ -1,4 +1,4 @@
-## GithubPreview
+## GitHubPreview
 
 [![GitHub license](https://img.shields.io/github/license/jbox-web/gh-preview.svg)](https://github.com/jbox-web/gh-preview/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/jbox-web/gh-preview.svg)](https://github.com/jbox-web/gh-preview/releases/latest)
