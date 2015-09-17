@@ -3,11 +3,13 @@ require 'simplecov'
 require 'rack/test'
 require 'rspec'
 require 'capybara/rspec'
+require 'codeclimate-test-reporter'
 require 'support/helper'
 
 ## Configure SimpleCov
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-  SimpleCov::Formatter::HTMLFormatter
+  SimpleCov::Formatter::HTMLFormatter,
+  CodeClimate::TestReporter::Formatter
 ]
 
 ## Start Simplecov
