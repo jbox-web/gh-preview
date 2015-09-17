@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Nicolas Rodriguez']
   s.email       = ['nrodriguez@jbox-web.com']
-  s.homepage    = 'https://github.com/jbox-web/gh-preview'
+  s.homepage    = 'http://jbox-web.github.io/gh-preview/'
   s.description = %q{A small gem to preview GitHub README files}
   s.summary     = %q{This gem provides a small Sinatra application to preview GitHub README files}
   s.license     = 'MIT'
