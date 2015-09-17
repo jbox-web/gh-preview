@@ -15,7 +15,7 @@ describe GhPreview::Converter do
 
 
   it "should render markdown to html" do
-    expect{ to_html(markdown_content).to eq html_content }
+    expect { to_html(markdown_content).to eq html_content }
   end
 
 end

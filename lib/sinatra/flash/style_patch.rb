@@ -20,7 +20,7 @@ module Sinatra
       #
       # @return [String] Styled HTML if the flash contains messages, or an empty string if it's empty.
       #
-      def styled_flash(key=:flash)
+      def styled_flash(key = :flash)
         return '' if flash(key).empty?
         id = (key == :flash ? 'flash' : "flash_#{key}")
         messages = flash(key).collect { |message| "  <div class='alert alert-#{message[0]}'>#{message[1]}</div>\n" }
