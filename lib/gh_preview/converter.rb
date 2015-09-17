@@ -20,7 +20,7 @@ module GhPreview
 
       def filters
         [
-          HTML::Pipeline::RedcarpetFilter,
+          GhPreview::RedcarpetFilter,
           TaskList::Filter,
           HTML::Pipeline::AutolinkFilter,
           HTML::Pipeline::TableOfContentsFilter
