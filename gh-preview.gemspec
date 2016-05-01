@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Nicolas Rodriguez']
   s.email       = ['nrodriguez@jbox-web.com']
   s.homepage    = 'http://jbox-web.github.io/gh-preview/'
-  s.description = %q{A small gem to preview GitHub README files}
-  s.summary     = %q{This gem provides a small Sinatra application to preview GitHub README files}
+  s.summary     = %q{A small gem to preview GitHub README files}
+  s.description = %q{This gem provides a small Sinatra application to preview GitHub README files}
   s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
