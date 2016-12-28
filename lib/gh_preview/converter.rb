@@ -10,22 +10,19 @@ module GhPreview
     end
 
 
-    private
+    def pipeline
+      HTML::Pipeline.new(filters)
+    end
 
 
-      def pipeline
-        HTML::Pipeline.new(filters)
-      end
-
-
-      def filters
-        [
-          GhPreview::RedcarpetFilter,
-          TaskList::Filter,
-          HTML::Pipeline::AutolinkFilter,
-          HTML::Pipeline::TableOfContentsFilter
-        ]
-      end
+    def filters
+      [
+        GhPreview::RedcarpetFilter,
+        TaskList::Filter,
+        HTML::Pipeline::AutolinkFilter,
+        HTML::Pipeline::TableOfContentsFilter
+      ]
+    end
 
   end
 end

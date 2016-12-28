@@ -16,12 +16,9 @@ module GhPreview
     end
 
 
-    private
-
-
-      def gem_path
-        Gem::Specification.find_by_name('gh-preview').gem_dir
-      end
+    def gem_path
+      Gem::Specification.find_by_name('gh-preview').gem_dir
+    end
 
   end
 end
