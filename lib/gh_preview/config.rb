@@ -1,6 +1,6 @@
 module GhPreview
   module Config
-    extend self
+    module_function
 
     NAME       = 'GitHub Preview'
     GITHUB_URL = 'https://github.com/jbox-web/gh-preview'

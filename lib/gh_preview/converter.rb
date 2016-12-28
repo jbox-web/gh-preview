@@ -3,7 +3,7 @@ require 'task_list/filter'
 
 module GhPreview
   module Converter
-    extend self
+    module_function
 
     def to_html(markdown)
       pipeline.call(markdown)[:output].to_s
