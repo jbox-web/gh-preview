@@ -3,7 +3,6 @@ require 'simplecov'
 require 'rack/test'
 require 'rspec'
 require 'capybara/rspec'
-require 'codeclimate-test-reporter'
 require 'support/helper'
 
 ## Configure SimpleCov
