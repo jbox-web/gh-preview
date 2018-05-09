@@ -7,8 +7,6 @@
 [![Build Status](https://travis-ci.org/jbox-web/gh-preview.svg?branch=master)](https://travis-ci.org/jbox-web/gh-preview)
 [![Code Climate](https://codeclimate.com/github/jbox-web/gh-preview/badges/gpa.svg)](https://codeclimate.com/github/jbox-web/gh-preview)
 [![Test Coverage](https://codeclimate.com/github/jbox-web/gh-preview/badges/coverage.svg)](https://codeclimate.com/github/jbox-web/gh-preview/coverage)
-[![Dependency Status](https://gemnasium.com/jbox-web/gh-preview.svg)](https://gemnasium.com/jbox-web/gh-preview)
-[![PullReview stats](https://www.pullreview.com/github/jbox-web/gh-preview/badges/master.svg?)](https://www.pullreview.com/github/jbox-web/gh-preview/reviews/master)
 
 ### A small Sinatra application to preview GitHub README files, easy ;)
 
